@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8" />
+        <title>Neuronumérique</title>
+
+        <!-- mobile responsive meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+
+        <!-- ** Plugins Needed for the Project ** -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+        <!-- themefy-icon -->
+        <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+        <!-- slick slider -->
+        <link rel="stylesheet" href="plugins/slick/slick.css" />
+        <!-- venobox popup -->
+        <link rel="stylesheet" href="plugins/Venobox/venobox.css" />
+        <!-- aos -->
+        <link rel="stylesheet" href="plugins/aos/aos.css" />
+
+        <!-- Main Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <!--Favicon-->
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+        <!-- navigation -->
+        <section class="fixed-top navigation">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <h4>Neuronumérique</h4>
+                    </a>
+                    <button
+                        class="navbar-toggler border-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-controls="navbar"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- navbar -->
+                    <div
+                        class="collapse navbar-collapse text-center"
+                        id="navbar"
+                    >
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link page-scroll"
+                                    href="index.html#feature"
+                                    >Fonctionnalités</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#about"
+                                    >À propos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#service"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link page-scroll"
+                                    href="index.html#blog"
+                                    >Blog</a
+                                >
+                            </li>
+                        </ul>
+                        <a
+                            href="#contact"
+                            class="btn btn-primary ml-lg-3 primary-shadow"
+                            >Contact</a
+                        >
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- /navigation -->
+
+        <!-- hero area -->
+        <section class="hero-section hero" data-background="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center zindex-1">
+                        <h1 class="mb-3">
+                            Explorez l’Avenir<br />
+                            de l’Intelligence Artificielle
+                        </h1>
+                        <p class="mb-4">
+                            Neuronumérique est un blog dédié à l’univers de l’IA
+                            : actualités, technologies émergentes, usages
+                            quotidiens et analyses approfondies – un guide
+                            fiable pour mieux comprendre l’intelligence
+                            artificielle aujourd’hui.
+                        </p>
+                        <!-- banner image -->
+                        <img
+                            style="border-radius: 20px"
+                            class="img-fluid w-100 banner-image"
+                            src="images/hero-area/banner-img.png"
+                            alt="banner-img"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /hero-area -->
+
+        <!-- feature -->
+        <section class="section feature mb-0" id="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title">Nos Domaines Clés</h2>
+                        <p class="mb-100">
+                            Neuronumérique se consacre à la vulgarisation de
+                            l’intelligence artificielle pour les passionnés,
+                            chercheurs et professionnels du numérique.<br />
+                            Nous abordons l’IA sous ses aspects pratiques,
+                            théoriques et éthiques, pour mieux comprendre ses
+                            impacts et ses applications.
+                        </p>
+                    </div>
+                    <!-- feature item -->
+                    <div class="col-md-6 mb-80">
+                        <div class="d-flex feature-item">
+                            <div>
+                                <i
+                                    class="ti-ruler-pencil feature-icon mr-4"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4>Articles Personnalisés</h4>
+                                <p>
+                                    Rédaction de contenus sur mesure traitant
+                                    des enjeux actuels de l’intelligence
+                                    artificielle et de ses algorithmes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature item -->
+                    <div class="col-md-6 mb-80">
+                        <div class="d-flex feature-item">
+                            <div>
+                                <i
+                                    class="ti-layout-cta-left feature-icon mr-4"
+                                ></i>
+                            </div>
+                            <div>
+                                <h4>Explications Claires</h4>
+                                <p>
+                                    Présentation des concepts complexes d’IA de
+                                    manière accessible à tous, du curieux au
+                                    spécialiste.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature item -->
+                    <div class="col-md-6 mb-80">
+                        <div class="d-flex feature-item">
+                            <div>
+                                <i class="ti-split-v-alt feature-icon mr-4"></i>
+                            </div>
+                            <div>
+                                <h4>Analyse de Données</h4>
+                                <p>
+                                    Exploration des méthodes d’analyse de
+                                    données à grande échelle assistées par
+                                    l’intelligence artificielle.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature item -->
+                    <div class="col-md-6 mb-80">
+                        <div class="d-flex feature-item">
+                            <div>
+                                <i class="ti-layers-alt feature-icon mr-4"></i>
+                            </div>
+                            <div>
+                                <h4>Outils Évolutifs</h4>
+                                <p>
+                                    Présentation d’outils IA innovants et
+                                    évolutifs adaptés à différents domaines
+                                    numériques et scientifiques.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /feature -->
+
+        <!-- about us -->
+        <section class="section-lg about pb-0" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="section-title">À propos de nous</h2>
+                    </div>
+                    <div class="col-lg-12 mb-100">
+                        <p>
+                            Chez Neuronumérique, notre mission est de
+                            démocratiser l’intelligence artificielle à travers
+                            un contenu rigoureux et accessible.
+                        </p>
+                        <p>
+                            Notre équipe, composée de rédacteurs techniques,
+                            spécialistes en IA et journalistes scientifiques
+                            comme Julien Morel, Claire Dupont, Thomas Lefèvre et
+                            Aline Girard, partage des analyses approfondies, des
+                            tutoriels et des réflexions sur l’avenir de
+                            l’intelligence artificielle.
+                        </p>
+                        <p>
+                            Nous croyons que la compréhension de l’IA est
+                            essentielle pour naviguer dans le monde numérique
+                            d’aujourd’hui et de demain.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /about us -->
+
+        <!-- product -->
+        <section
+            class="section product"
+            style="background-image: url(images/backgrounds/about-bg.png)"
+        >
+            <!-- notre vision -->
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="section-title">Notre Vision</h2>
+                            <p>
+                                Nous avons pour objectif de simplifier la
+                                compréhension et l’utilisation de l'intelligence
+                                artificielle (IA) pour les passionnés et les
+                                professionnels.<br />
+                                Nous créons des systèmes intelligents qui
+                                accélèrent l’analyse des données, permettent des
+                                prédictions plus précises et optimisent les
+                                processus décisionnels dans différents secteurs.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img
+                                src="images/about/vision.png"
+                                alt="vision"
+                                class="img-fluid w-100"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /notre vision -->
+        </section>
+        <!-- /product -->
+
+        <!-- marketing -->
+        <section class="section-lg seo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="seo-image">
+                            <img
+                                style="border-radius: 20px"
+                                class="img-fluid"
+                                src="images/marketing/marketing.png"
+                                alt="form-img"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="section-title">
+                            Conseils sur l'Intelligence Artificielle pour
+                            l'Analyse des Données
+                        </h2>
+                        <p>
+                            Nos experts partagent leurs connaissances et aident
+                            à intégrer des solutions IA dans différents
+                            processus analytiques.<br />
+                            Nous développons des modèles intelligents,
+                            automatisons les processus basés sur les données et
+                            rendons vos systèmes analytiques plus efficaces et
+                            adaptés aux défis futurs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- background image -->
+            <img
+                class="img-fluid seo-bg"
+                src="images/backgrounds/seo-bg.png"
+                alt="seo-bg"
+            />
+        </section>
+        <!-- /marketing -->
+
+        <!-- service -->
+        <section class="section-lg service" id="service">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 order-2 order-md-1">
+                        <h2 class="section-title">
+                            Solutions efficaces pour l'analyse des données
+                        </h2>
+                        <p class="mb-4">
+                            Notre expertise permet d'intégrer de manière
+                            transparente l'Intelligence Artificielle dans les
+                            processus d'analyse des données.<br />
+                            Nous automatisons les analyses complexes, optimisons
+                            les processus décisionnels et créons une structure
+                            orientée vers l'avenir pour des stratégies basées
+                            sur les données.
+                        </p>
+                        <ul class="pl-0 service-list">
+                            <li>
+                                <i class="ti-layout-tab-window text-purple"></i>
+                                Solutions évolutives, adaptables à toute
+                                infrastructure
+                            </li>
+                            <li>
+                                <i
+                                    class="ti-layout-placeholder text-purple"
+                                ></i>
+                                Mise en œuvre flexible et sur mesure
+                            </li>
+                            <li>
+                                <i class="ti-support text-purple"></i>
+                                Conseil expert en Intelligence Artificielle
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7 order-1 order-md-2">
+                        <img
+                            style="border-radius: 20px"
+                            class="img-fluid layer-3"
+                            src="images/service/service.png"
+                            alt="service"
+                        />
+                    </div>
+                </div>
+            </div>
+            <!-- background image -->
+            <img
+                class="img-fluid service-bg"
+                src="images/backgrounds/service-bg.png"
+                alt="service-bg"
+            />
+        </section>
+        <!-- /service -->
+
+        <!-- blog -->
+        <section class="section-lg team" id="blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title">
+                            Nos derniers articles de blog sur l'IA
+                        </h2>
+                        <p class="mb-100">
+                            Découvrez nos derniers articles sur l'intégration et
+                            l'optimisation de l'Intelligence Artificielle dans
+                            les processus d'analyse des données. Apprenez
+                            comment l'IA transforme l'analyse des données et
+                            améliore vos stratégies basées sur l'IA.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 mx-auto">
+                    <div class="team-slider">
+                        <!-- blog post -->
+                        <div class="team-member">
+                            <div class="d-flex mb-4">
+                                <div class="mr-3">
+                                    <img
+                                        class="rounded-circle img-fluid"
+                                        src="images/team/team-1.jpg"
+                                        alt="blog-article"
+                                    />
+                                </div>
+                            </div>
+                            <div class="align-self-center">
+                                <h4>
+                                    Révolutionner l'analyse de données grâce à
+                                    l'IA
+                                </h4>
+                            </div>
+                            <p>
+                                "L'intégration de l'Intelligence Artificielle
+                                dans notre processus d'analyse des données a
+                                totalement changé notre approche. Grâce à des
+                                modèles d'IA adaptés, nous avons amélioré
+                                l'efficacité de nos analyses et pris des
+                                décisions plus éclairées."
+                            </p>
+                        </div>
+                        <!-- blog post -->
+                        <div class="team-member">
+                            <div class="d-flex mb-4">
+                                <div class="mr-3">
+                                    <img
+                                        class="rounded-circle img-fluid"
+                                        src="images/team/team-2.jpg"
+                                        alt="blog-article"
+                                    />
+                                </div>
+                            </div>
+                            <div class="align-self-center">
+                                <h4>
+                                    Modèles prédictifs : Anticiper les tendances
+                                    avec l'IA
+                                </h4>
+                            </div>
+                            <p>
+                                "L'application de l'IA pour développer des
+                                modèles prédictifs nous a permis de mieux
+                                anticiper les tendances. Le soutien que nous
+                                avons reçu a facilité l'implémentation et
+                                optimisé nos processus."
+                            </p>
+                        </div>
+                        <!-- blog post -->
+                        <div class="team-member">
+                            <div class="d-flex mb-4">
+                                <div class="mr-3">
+                                    <img
+                                        class="rounded-circle img-fluid"
+                                        src="images/team/team-3.jpg"
+                                        alt="blog-article"
+                                    />
+                                </div>
+                            </div>
+                            <div class="align-self-center">
+                                <h4>
+                                    Intégrer l’IA dans l’infrastructure
+                                    technique
+                                </h4>
+                            </div>
+                            <p>
+                                "L'intégration de l'IA dans notre infrastructure
+                                a été une réussite totale. Grâce à
+                                l'accompagnement professionnel, nous avons gagné
+                                en efficacité et sommes désormais capables de
+                                prendre des décisions plus rapides et plus
+                                informées."
+                            </p>
+                        </div>
+                        <!-- blog post -->
+                        <div class="team-member">
+                            <div class="d-flex mb-4">
+                                <div class="mr-3">
+                                    <img
+                                        class="rounded-circle img-fluid"
+                                        src="images/team/team-4.jpg"
+                                        alt="blog-article"
+                                    />
+                                </div>
+                            </div>
+                            <div class="align-self-center">
+                                <h4>
+                                    Gestion de projets IA : Fluidité et
+                                    performance
+                                </h4>
+                            </div>
+                            <p>
+                                "La coordination de nos projets d'IA a été
+                                parfaitement fluide. L'intégration a été
+                                réalisée sans problème majeur, permettant ainsi
+                                une augmentation de l'efficacité de nos analyses
+                                et de notre prise de décision."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- background image -->
+            <img
+                src="images/backgrounds/team-bg.png"
+                alt="team-bg"
+                class="img-fluid team-bg"
+            />
+        </section>
+        <!-- /blog -->
+
+        <!-- contact -->
+        <section class="section-lg contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title">Contact</h2>
+                    </div>
+                </div>
+                <div class="row contact-bg p-5 rounded mb-5">
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <form action="thanks.html" method="get">
+                            <input
+                                type="text"
+                                class="form-control mb-3"
+                                id="name"
+                                name="name"
+                                placeholder="Votre nom"
+                                required
+                            />
+                            <input
+                                type="email"
+                                class="form-control mb-3"
+                                id="mail"
+                                name="mail"
+                                placeholder="Votre e-mail"
+                                required
+                            />
+                            <input
+                                type="text"
+                                class="form-control mb-3"
+                                id="subject"
+                                name="subject"
+                                placeholder="Sujet"
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                id="message"
+                                class="form-control mb-3"
+                                placeholder="Votre message"
+                                required
+                            ></textarea>
+                            <button
+                                type="submit"
+                                value="send"
+                                class="btn btn-secondary"
+                            >
+                                ENVOYER LE MESSAGE
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="mb-5">
+                            Si vous souhaitez en savoir plus sur l'utilisation
+                            de l'intelligence artificielle dans des contextes
+                            analytiques ou si vous cherchez à mieux comprendre
+                            comment l'IA peut transformer vos processus,
+                            n'hésitez pas à nous écrire. L'équipe de
+                            Neuronumérique est à votre écoute.
+                        </p>
+
+                        <a
+                            href="mailto:info@altostack.io"
+                            class="mb-5 text-color h5 d-block"
+                            >neuronumérique@gmail.com</a
+                        >
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card p-4 border-blue">
+                            <h5>
+                                <i
+                                    class="ti-layers-alt round-icon blue mr-2"
+                                ></i>
+                                Conseil en IA
+                            </h5>
+                            <p class="mb-0">
+                                Nous vous accompagnons dans la compréhension et
+                                l'intégration de solutions d'intelligence
+                                artificielle dans vos flux d'information et
+                                d'analyse.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card p-4 border-blue">
+                            <h5>
+                                <i class="ti-desktop round-icon green mr-2"></i>
+                                Support technique
+                            </h5>
+                            <p class="mb-0">
+                                Nos spécialistes techniques vous aident à
+                                déployer des systèmes d'analyse renforcés par
+                                l'intelligence artificielle, adaptés à vos
+                                besoins spécifiques.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="card p-4 border-blue">
+                            <h5>
+                                <i class="ti-panel round-icon orange mr-2"></i>
+                                Aspects juridiques de l'IA
+                            </h5>
+                            <p class="mb-0">
+                                Nous vous guidons sur les implications
+                                juridiques et éthiques liées à l’utilisation de
+                                systèmes basés sur l’intelligence artificielle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /contact -->
+
+        <!-- footer -->
+        <footer
+            class="footer-section footer"
+            style="
+                background: linear-gradient(6deg, #17ffd3 0%, #23e3ee 100%);
+                padding-top: 50px;
+            "
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+                        <!-- logo -->
+                        <a href="index.html">
+                            <h4>Neuronumérique</h4>
+                        </a>
+                        <p style="color: #000">
+                            Nous sommes spécialisés dans la vulgarisation et
+                            l’accompagnement autour de l’intelligence
+                            artificielle. Nos ressources vous aident à
+                            comprendre l’impact et le fonctionnement de l’IA
+                            dans divers domaines de l’information.
+                        </p>
+                    </div>
+                    <!-- footer menu -->
+                    <nav class="col-lg-8 align-self-center mb-5">
+                        <ul
+                            class="list-inline text-lg-right text-center footer-menu"
+                        >
+                            <li class="list-inline-item active">
+                                <a href="index.html">Accueil</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="index.html#contact">Contact</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="privacy-policy.html"
+                                    >Confidentialité</a
+                                >
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="cookie-policy.html"
+                                    >Politique de cookies</a
+                                >
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="terms-of-use.html"
+                                    >Conditions d'utilisation</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- footer social icon -->
+                    <nav class="col-12">
+                        <ul
+                            class="list-inline text-lg-right text-center social-icon"
+                        >
+                            <li class="list-inline-item">
+                                <a
+                                    class="facebook"
+                                    href="https://www.facebook.com/"
+                                    target="_blank"
+                                >
+                                    <i class="ti-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a
+                                    class="twitter"
+                                    href="https://twitter.com/"
+                                    target="_blank"
+                                >
+                                    <i class="ti-twitter-alt"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a
+                                    class="linkedin"
+                                    href="https://www.linkedin.com/company/"
+                                    target="_blank"
+                                >
+                                    <i class="ti-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a
+                                    class="black"
+                                    href="https://github.com/"
+                                    target="_blank"
+                                >
+                                    <i class="ti-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentement aux cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ce site utilise des cookies pour vous offrir une expérience
+                    de navigation améliorée et plus pertinente.
+                    <a href="cookie-policy.html">En savoir plus...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accepter</button>
+                <button class="cookie-button" id="declineBtn">Refuser</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- jQuery -->
+        <script src="plugins/jQuery/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="plugins/bootstrap/bootstrap.min.js"></script>
+        <!-- slick slider -->
+        <script src="plugins/slick/slick.min.js"></script>
+        <!-- venobox -->
+        <script src="plugins/Venobox/venobox.min.js"></script>
+        <!-- aos -->
+        <script src="plugins/aos/aos.js"></script>
+        <!-- Main Script -->
+        <script src="js/script.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
